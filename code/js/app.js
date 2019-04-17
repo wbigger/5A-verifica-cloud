@@ -14,11 +14,9 @@ var app = {
 			<td>${element.cognome}</td>
 			<td>${element.materia}</td>
 		  </tr>`;
-		  $('#container').append(html);
+		  $('#dataTable').append(html);
 		});
 		
-		// Update the table
-		$('#dataTable').DataTable();
 		
 	},
 	onError: function(e) {
