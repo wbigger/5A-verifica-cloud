@@ -7,10 +7,18 @@ var app = {
 	},
 	onSuccess(dataJson) {
 		console.log(dataJson);
-
-		
+		dataJson.commissione.forEach(element => {
+		let html=`
+		<tr>
+		<td>${element.Nome}</td>
+		<td>${element.Cognome}</td>
+        <td>${element.Materia}</td>
+		</tr>`;
 		// Update the table
-		$('#dataTable').DataTable();
+		$('#dataTable').append(html);
+	});
+		
+		
 		
 	},
 	onError: function(e) {
