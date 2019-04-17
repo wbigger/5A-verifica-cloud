@@ -14,8 +14,13 @@ var app = {
 			<td>${element.cognome}</td>
 			<td>${element.materia}</td>
 		  </tr>`;
-		  $('#container').append(html);
+		  $('#dataTable').append(html);
 		});
 
-		// Update the table
-		$('#dataTable').DataTable();
+	},
+	onError: function(e) {
+		Console.log(`Ajax error: ${JSON.stringify(e)}`);
+	}
+}
+
+$(document).ready(app.init);
