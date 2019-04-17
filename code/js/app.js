@@ -9,9 +9,9 @@ var app = {
 		console.log(dataJson);
 		dataJson.proflist.forEach(element => {
 			let html = `<tr>
-			<td>$(element.nome)</td>
-			<td>$(element.cognome)</td>
-			<td>$(element.materia)</td>
+			<td>${element.nome}</td>
+			<td>${element.cognome}</td>
+			<td>${element.materia}</td>
 			</tr>
 			`;
 			$("#idprof").append(html);
