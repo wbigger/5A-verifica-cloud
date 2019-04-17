@@ -7,10 +7,19 @@ var app = {
 	},
 	onSuccess(dataJson) {
 		console.log(dataJson);
-
+		dataJson.profList.forEach(element => {
+			let html=` 
+			<tr>
+			<td>${element.nome}</td>
+			<td>${element.cognome}</td>
+			<td>${element.materia}</td>
+		  </tr>`;
+		  $('#dataTable').append(html);
+			
+		});
 		
 		// Update the table
-		$('#dataTable').DataTable();
+		
 		
 	},
 	onError: function(e) {
