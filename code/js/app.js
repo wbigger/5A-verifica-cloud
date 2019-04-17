@@ -8,6 +8,14 @@ var app = {
 	onSuccess(dataJson) {
 		console.log(dataJson);
 
+		dataJson.proflist.forEach(element => {
+			let html = `<tr>
+			<td>${element.nome}</td>
+			<td>${element.cognome}</td>
+			<td>${element.materia}</td>
+		  </tr>`;
+		  $('#container').append(html);
+		});
 		
 		// Update the table
 		$('#dataTable').DataTable();
