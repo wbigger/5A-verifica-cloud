@@ -1,3 +1,18 @@
 {
+    "commissione":[
+        {
+         "Nome": "Claudio",
+         "Cognome": "Capobianco",
+         "Materia":  "TPSI"
+        },{
+         "Nome": "Andrea",
+         "Cognome": "Angelini",
+         "Materia":  "Informatica"
+        },{
+         "Nome": "Vincenzo",
+         "Cognome": "Di Falco",
+         "Materia":  "Sistemi e Reti"
+        }
+    ]
     
 }
