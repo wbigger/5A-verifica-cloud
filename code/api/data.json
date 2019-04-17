@@ -1,3 +1,19 @@
 {
-    
+    "proflist": [
+        {
+            "nome": "Andrea",
+            "cognome": "Angelini",
+            "materia": "Informatica"
+        },
+        {
+            "nome": "Claudio",
+            "cognome": "Capobianco",
+            "materia": "TPSI"
+        },
+        {
+            "nome": "Vincenzo",
+            "cognome": "Di falco",
+            "materia": "Sitemi e Reti"
+        }
+    ]
 }
