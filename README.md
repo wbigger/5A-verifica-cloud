@@ -42,19 +42,19 @@ Quando avete finito e **comunque 5 minuti prima** dello scadere del tempo (vi ve
 Tutte le seguenti voci valgono **1 punto**. 
 
 Punti generali:
-- [x] corretta indentazione di tutti i file
-- [ ] codice che compila senza errori nella console del browser
-- [ ] chiarezza del codice (commenti, identificativi, etc.)
+- [ ] corretta indentazione di tutti i file
+- [X] codice che compila senza errori nella console del browser
+- [X] chiarezza del codice (commenti, identificativi, etc.)
 
 Punti progetto:
-- [ ] i dati di un commissario nel file JSON compilati correttamente
-- [ ] i dati di tutti i commissari nel file JSON compilati correttamente
-- [ ] codice JavaScript che itera sul file JSON
-- [ ] sostituzione delle stringhe statiche con elementi dinamici
-- [ ] i dati di un commissario visualizzati correttamente
-- [ ] i dati di tutti i commissari visualizzati correttamente
+- [X] i dati di un commissario nel file JSON compilati correttamente
+- [X] i dati di tutti i commissari nel file JSON compilati correttamente
+- [X] codice JavaScript che itera sul file JSON
+- [X] sostituzione delle stringhe statiche con elementi dinamici
+- [X] i dati di un commissario visualizzati correttamente
+- [X] i dati di tutti i commissari visualizzati correttamente
 - [ ] il file `index.html` originale e quello generato da voi sono _perfettamente identici_
-- [ ] commit e push del codice aggiornato su GitHub
+- [X] commit e push del codice aggiornato su GitHub
 
 Punti AWS (_vedi sezione precedente per accesso e configurazione_):
 - [ ] **nuova** istanza su AWS creata (dovete crearne una nuova!)

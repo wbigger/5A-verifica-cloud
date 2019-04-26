@@ -14,12 +14,12 @@ var app = {
 			<td>${element.cognome}</td>
 			<td>${element.materia}</td>
 		  </tr>`;
-		  $('#dataTable').append(html);
+		  $('#dataTable').append(html); // PROF: Questo doveva rimanere fuori dal ciclo
 		});
 
 	},
 	onError: function(e) {
-		Console.log(`Ajax error: ${JSON.stringify(e)}`);
+		console.log(`Ajax error: ${JSON.stringify(e)}`); // PROF: perché hai messo la lettera maiuscola?
 	}
 }
 
