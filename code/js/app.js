@@ -14,7 +14,7 @@ var app = {
 			<td>${element.cognome}</td>
 			<td>${element.materia}</td>
 		  </tr>`;
-		  $('#dataTable').append(html);
+		  $('#dataTable').append(html); // PROF: questo non andava spostato dentro il ciclo
 			
 		});
 		
