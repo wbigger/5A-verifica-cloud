@@ -14,7 +14,7 @@ var app = {
 			<td>${element.materia}</td>
 			</tr>`;
 		// Update the table
-		$('#dataTable').append(html);
+		$('#dataTable').append(html); // PROF: questo non va all'interno del ciclo
 		});
 
 		
