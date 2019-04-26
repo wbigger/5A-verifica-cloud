@@ -42,7 +42,7 @@ Quando avete finito e **comunque 5 minuti prima** dello scadere del tempo (vi ve
 Tutte le seguenti voci valgono **1 punto**. 
 
 Punti generali:
-- [ ] corretta indentazione di tutti i file
+- [x] corretta indentazione di tutti i file
 - [ ] codice che compila senza errori nella console del browser
 - [ ] chiarezza del codice (commenti, identificativi, etc.)
 
