@@ -15,7 +15,7 @@ var app = {
 		<td>${element.Materia}</td>
 		</tr>
 		`;
-		$("#dataTable").append(html);
+		$("#dataTable").append(html); // PROF: questo va fuori
 		});
 
 	},
